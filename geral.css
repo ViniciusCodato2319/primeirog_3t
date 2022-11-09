@@ -1,56 +1,57 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-.calculadora {
-    background: rgb(9, 43, 235);
+.calc {
+    background: rgb(112, 114, 236);
+    color: rgb(255, 255, 255);
     width: 200px;
-    color: white;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 10px 10px rgb(0, 0, 0);
+    box-shadow: 5px 6px rgb(42, 19, 104);
 }
-.calculadora input {
-    background: rgb(32, 31, 31);
-    color: white;
+.calc input {
+    background: crimson;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
     padding: 5px;
 }
-.calc {
-    display: none;
+.calc input:focus {
+    background: rgb(228, 197, 150);
+    color: rgb(64, 133, 211);
 }
-#calcfin:checked + .calculadora{
-    display: block;
-}
-.calculadora input:focus{
-    background-color: bisque;
-    color: blue;
-}
-#btnCalc {
-    background: yellowgreen;
-    margin-top: 20px;
+#spTotal {
+    background: rgb(139, 11, 37);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
     padding: 5px;
+    margin-bottom: 10px;
 }
-#btnCalc:hover {
-    background: rgb(171, 255, 3);
-    color: red;
+.calc button {
+    background: tomato;
+    color: rgb(19, 14, 19);
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.calc button:hover {
+    background: rgb(145, 48, 31);
+    color: rgb(19, 14, 19);
     cursor: pointer;
 }
-#psTotal {
-    background: black;
-    color: yellow;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-}
-.spmes {
-    width: 100%;
-    background: purple;
-    color: white;
-    border-radius: 4px;
+#spLista {
+    text-align: start;
     border-style: dashed;
-    border-color: white;
-    border-width: 2px;
+    border-color: rgb(124, 105, 143);
+    border-width: 1px;
+    border-radius: 4px;
+    background: rgb(68, 207, 154);
+    color: rgb(14, 37, 78);
     margin-top: 10px;
+}
+.calcF {
+    display: none;
+}
+#input.calcFin {
+    display: none;
+}
+#input-calcFin:checked + .calc .calcF {
+    display: block;
 }
