@@ -1,6 +1,5 @@
 # Terceiro Trimestre
-
 ## Identificação
-Vinicius Codato - Nr: 32
+Vinicius Codato N 32
 
-## Conteudo - HTML - CSS - JavaScript
+## Conteúdo - HTML - CSS - JavaScript
